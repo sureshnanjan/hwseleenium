@@ -1,0 +1,45 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250617120400
+Username: SURESHNANJAN\nanja
+RunAs User: SURESHNANJAN\nanja
+Configuration Name: 
+Machine: SURESHNANJAN (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 1232
+PSVersion: 5.1.26100.4202
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.4202
+BuildVersion: 10.0.26100.4202
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is suresh.txt
+PS C:\Trainings-2021\Vendors\Pioneer\hexaware-june2025> git clone https://github.com/sureshnanjan/hwseleenium.git
+Cloning into 'hwseleenium'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+PS C:\Trainings-2021\Vendors\Pioneer\hexaware-june2025> cd .\hwseleenium\
+PS C:\Trainings-2021\Vendors\Pioneer\hexaware-june2025\hwseleenium> dir
+
+
+    Directory: C:\Trainings-2021\Vendors\Pioneer\hexaware-june2025\hwseleenium
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        17-06-2025     12:04             58 README.md
+
+
+PS C:\Trainings-2021\Vendors\Pioneer\hexaware-june2025\hwseleenium> git checkout -b suresh-trainer
+
+PS C:\Trainings-2021\Vendors\Pioneer\hexaware-june2025\hwseleenium> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250617120643
+**********************
